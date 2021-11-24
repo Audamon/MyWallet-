@@ -1,7 +1,5 @@
-import { getFinancialEvents } from "../Repositories/getFinancialEvents.js";
+import { getFinancialEvents } from "../Services/getFinancialEvents.js";
 import { checkToken } from "../Services/checkToken.js";
-
-import connection from "../src/database.js";
 
 async function financialEvents(req, res) {
     try {

@@ -1,4 +1,4 @@
-import { getFinancialEvents } from "../Repositories/getFinancialEvents.js";
+import { getFinancialEvents } from "../Services/getFinancialEvents.js";
 import { checkToken } from "../Services/checkToken.js";
 import { sumFinancialEvents } from "../Services/sumFinancialEvents.js";
 

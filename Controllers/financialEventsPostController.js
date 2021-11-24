@@ -1,8 +1,5 @@
-import jwt from "jsonwebtoken";
-import { postFinancialEvents } from "../Repositories/postFinancialEvents.js";
+import { postFinancialEvents } from "../Services/postFinancialEvents.js";
 import { checkToken } from "../Services/checkToken.js";
-
-import connection from "../src/database.js";
 
 async function financialEvents(req, res) {
     try {
